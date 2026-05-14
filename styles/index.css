@@ -1,1 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* header-style */
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "work sans", sans-serif;
+}
+
+nav > ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+nav > ul > li {
+    list-style: none;
+}
+
+.color {
+    color: #8987a1;
+}
+
+/* main-design */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* banner-section-design */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-family: "work sans", sans-serif;
+}
+
+.banner-title {
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.oranges {
+    color: #e95a08;
+}
+
+.banner-description {
+    opacity: 0.6;
+}

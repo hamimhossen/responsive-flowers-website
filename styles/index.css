@@ -127,3 +127,24 @@ main {
 .plants-our {
     color: #e95a08;
 }
+
+/* responsive-design-for-mobile-device */
+@media screen and (max-width: 576px) {
+    .color {
+        display: none;
+    }
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .banner-image img {
+        width: 100%;
+    }
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-not {
+        display: none;
+    }
+}

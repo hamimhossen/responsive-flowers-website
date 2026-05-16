@@ -128,6 +128,211 @@ main {
     color: #e95a08;
 }
 
+/* flower-lover-section-design */
+.flower-lover {
+    margin-bottom: 100px;
+}
+
+.flower-lover-container {
+    display: flex;
+    font-family: "work sans", sans-serif;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.flower-img {
+    max-width: 395px;
+}
+
+ul {
+    padding-left: 20px;
+    opacity: 0.6;
+}
+
+ul > li {
+    margin-bottom: 13px;
+}
+
+.flower-lover-title {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.flower-lover-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* design-for-latest-section */
+.latest {
+    margin-bottom: 60px;
+}
+
+.font {
+    font-family: "work sans", sans-serif;
+    text-align: center;
+}
+
+.latest-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.latest-description {
+    opacity: 0.6;
+    margin-bottom: 60px;
+}
+
+.extra-style {
+    color: #e95a08;
+}
+
+.latest-container {
+    display: flex;
+    gap: 20px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.latest-container > div:first-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.latest-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.one-card {
+    background-image: url("../assets/deal-bloom.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    /* width: 300px; */
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.two-card {
+    background-image: url("../assets/deal-ana.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    /* width: 300px; */
+    height: 200px;
+    border-radius: 10px;
+}
+
+.three-card {
+    background-image: url("../assets/deal-zabo.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    flex: 2;
+    /* width: 500px; */
+    height: 420px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.one-card,
+.two-card,
+.three-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+/* design-for-footer-section */
+footer {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.join {
+    background-image: url("../assets/news-letter-bg.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.join-title {
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.join-btn {
+    text-align: center;
+}
+
+.btn-1 {
+    width: 400px;
+    padding: 10px;
+    font-size: 0.7rem;
+    text-align: start;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.btn-2 {
+    width: 120px;
+    padding: 10px;
+    font-size: 0.7rem;
+    color: #ffffff;
+    background-color: #e95a08;
+    border: none;
+}
+
+/* design-for-logo-section */
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: "work sans", sans-serif;
+}
+
+.logo-description {
+    opacity: 0.8;
+}
+
+.list > nav > ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.logo-img img {
+    margin-right: 15px;
+    margin-top: 0;
+}
+
 /* responsive-design-for-mobile-device */
 @media screen and (max-width: 576px) {
     .color {
@@ -146,5 +351,34 @@ main {
     }
     .card-not {
         display: none;
+    }
+    .flower-lover-container,
+    .latest-container,
+    .logo-container {
+        flex-direction: column;
+    }
+    .flower-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .plants {
+        margin-bottom: 50px;
+    }
+    .flower-lover-title {
+        margin-top: 5px;
+    }
+    .latest-container > background-image {
+        width: 100%;
+    }
+    .btn-1 {
+        width: 200px;
+    }
+    .logo-img {
+        margin-bottom: 30px;
+    }
+    .logo-container {
+        width: 100%;
     }
 }
